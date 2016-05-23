@@ -20,11 +20,11 @@ function testTrueLooseEqualityComparison(){
 function testFalseStrictEqualityComparison(){
   var one=1
   var uno="1"
-  return one!=uno
+  return one!==uno
 }
 
 function testTrueStrictEqualityComparison(){
   var one=1
   var uno="1"
-  return one==parseInt(uno)
+  return one===parseInt(uno)
 }
