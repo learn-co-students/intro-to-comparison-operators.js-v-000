@@ -26,6 +26,6 @@ function testFalseStrictEqualityComparison() {
 
 function testTrueStrictEqualityComparison() {
   var one = 1;
-  var one_string = `1`
+  var one_string = `1`;
   return one === parseInt(one_string);
 }
