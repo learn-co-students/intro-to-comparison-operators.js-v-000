@@ -30,7 +30,7 @@ function testFalseStrictEqualityComparison() {
 
 function testTrueStrictEqualityComparison() {
   var x = 1;
-  var y = parseInt("1");
+  var y = "1";
 
-  return x === y;
+  return x === parseInt(y);
 }
