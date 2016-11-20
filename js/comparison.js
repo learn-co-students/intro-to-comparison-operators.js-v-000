@@ -24,3 +24,9 @@ function testFalseStrictEqualityComparison() {
   var b="1";
   return a===b;
 }
+
+function testTrueStrictEqualityComparison() {
+  var a=1;
+  var b="1";
+  return a===parseInt(b);
+}
