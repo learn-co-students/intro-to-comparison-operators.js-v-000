@@ -6,8 +6,15 @@ var b=1;
 return a==b;
 }
 
-function testTrueLooseEqualityComparison() {
+function testTrueLooseNonEqualityComparison() {
   var a=0
   var b=1
   return a != b
+}
+
+
+function testTrueLooseEqualityComparison() {
+var a=1;
+var b=1;
+return a==b;
 }
