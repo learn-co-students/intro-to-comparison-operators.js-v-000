@@ -13,7 +13,7 @@ function testTrueLooseEqualityComparison() {
 }
 
 function testFalseStrictEqualityComparison() {
-  return 1 !== "1";
+  return 1 === "1";
 }
 
 function testTrueStrictEqualityComparison() {
